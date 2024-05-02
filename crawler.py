@@ -170,7 +170,5 @@ if __name__ == "__main__":
     try:
         main()
         print("all work done")
-        graph.write_png("C:\\Users\\성택\\Desktop\\sDev\\다크웹 크롤러\\onions\\output.png")
     except KeyboardInterrupt:
         print("abort")
-        graph.write_png("C:\\Users\\성택\\Desktop\\sDev\\다크웹 크롤러\\onions\\output.png")
